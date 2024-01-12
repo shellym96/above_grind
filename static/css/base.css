@@ -58,6 +58,14 @@ body {
     border: 1px solid black !important;
 }
 
+ul, li {
+    list-style-type: none;
+    position: center;
+}
+
+.bg-black {
+    background: rgb(137, 64, 28);
+}
 /* -------------------------------- Media Queries */
 
 /* slightly larger container on xl screens */
