@@ -13,7 +13,7 @@
        }
     },
     {
-        "pk":1,
+        "pk":2,
         "model":"products.product",
         "fields":{
            "name":"Sage The Barista Express Impress | Stainless Steel Black",
@@ -26,7 +26,7 @@
         }
      },
      {
-        "pk":1,
+        "pk":3,
         "model":"products.product",
         "fields":{
            "name":"Nespresso Creatista Pro Coffee Machine by Sage | Stainless Steel",
@@ -39,7 +39,7 @@
         }
      },
      {
-        "pk":1,
+        "pk":4,
         "model":"products.product",
         "fields":{
            "name":"Sage The Barista Pro Espresso Coffee Machine | ThermoJet Heating System",
@@ -52,7 +52,7 @@
         }
      },
      {
-        "pk":1,
+        "pk":5,
         "model":"products.product",
         "fields":{
            "name":"Sage Oracle Touch Coffee Machine | Brushed Stainless Steel",
@@ -65,7 +65,7 @@
         }
      },
      {
-        "pk":1,
+        "pk":6,
         "model":"products.product",
         "fields":{
            "name":"Sage The Vertuo Creatista Coffee Machine | Brushed Stainless Steel",
@@ -78,7 +78,7 @@
         }
      },
      {
-        "pk":1,
+        "pk":7,
         "model":"products.product",
         "fields":{
            "name":"Sage the Bambino Plus Coffee Machine | Tingari",
@@ -91,7 +91,7 @@
         }
      },
      {
-     "pk":1,
+     "pk":8,
      "model":"products.product",
      "fields":{
         "name":"Sage Barista Touch Bean 2 Cup Coffee Machine | Brushed Stainless Steel",
@@ -104,7 +104,7 @@
      }
   },
   {
-    "pk":2,
+    "pk":9,
     "model":"products.product",
     "fields":{
        "name":"Ethiopia - Ana Sora: Washed, Indigenous Varieties",
@@ -117,7 +117,7 @@
     }
  },
  {
-    "pk":2,
+    "pk":10,
     "model":"products.product",
     "fields":{
        "name":"Nicaragua - Los Placeres: Anaerobic Natural, Ethiosar",
@@ -130,7 +130,7 @@
     }
  },
  {
-    "pk":2,
+    "pk":11,
     "model":"products.product",
     "fields":{
        "name":"Pacamania Blend",
@@ -143,7 +143,7 @@
     }
  },
  {
-    "pk":2,
+    "pk":12,
     "model":"products.product",
     "fields":{
        "name":"IRFU Blend",
@@ -156,7 +156,7 @@
     }
  },
  {
-    "pk":2,
+    "pk":13,
     "model":"products.product",
     "fields":{
        "name":"El Salvador - Las Brumas: Natural, Gesha",
@@ -169,7 +169,7 @@
     }
  },
  {
-    "pk":2,
+    "pk":14,
     "model":"products.product",
     "fields":{
        "name":"Lavazza Qualita Rossa Coffee Beans",
@@ -182,7 +182,7 @@
     }
  },
  {
-    "pk":2,
+    "pk":15,
     "model":"products.product",
     "fields":{
        "name":"Lavazza Crema e Aroma",
@@ -195,7 +195,7 @@
     }
  },
  {
-    "pk":2,
+    "pk":16,
     "model":"products.product",
     "fields":{
        "name":"Whole Bean Arabica Selection India Coffee",
@@ -208,7 +208,7 @@
     }
  },
  {
-    "pk":2,
+    "pk":17,
     "model":"products.product",
     "fields":{
        "name":"CLASSICO roast Coffee Beans",
@@ -221,7 +221,7 @@
     }
  },
  {
-    "pk":2,
+    "pk":18,
     "model":"products.product",
     "fields":{
        "name":"Ethiopia - Ana Sora: Washed, Indigenous Varieties",
@@ -234,7 +234,7 @@
     }
  },
  {
-    "pk":2,
+    "pk":19,
     "model":"products.product",
     "fields":{
        "name":"Whole Bean INTENSO roast Coffee",
@@ -247,7 +247,7 @@
     }
  },
  {
-    "pk":3,
+    "pk":20,
     "model":"products.product",
     "fields":{
        "name":"Whole Bean Decaffeinated Coffee",
@@ -260,7 +260,7 @@
     }
  },
  {
-    "pk":3,
+    "pk":21,
     "model":"products.product",
     "fields":{
        "name":"Lavazza Caffé Decaffeinated",
@@ -273,7 +273,7 @@
     }
  },
  {
-    "pk":3,
+    "pk":22,
     "model":"products.product",
     "fields":{
        "name":"DECAF Colombia - Los Trapiches: Washed, Caturra",
@@ -286,7 +286,7 @@
     }
  },
  {
-    "pk":4,
+    "pk":23,
     "model":"products.product",
     "fields":{
        "name":"3fe Speciality Coffee Bundle",
@@ -299,7 +299,7 @@
     }
  },
  {
-    "pk":4,
+    "pk":24,
     "model":"products.product",
     "fields":{
        "name":"Lavazza Espresso Italiano Coffee beans selection pack",
@@ -312,7 +312,7 @@
     }
  },
  {
-    "pk":4,
+    "pk":25,
     "model":"products.product",
     "fields":{
        "name":"illy Brewed Essentials Bundle",
@@ -325,7 +325,7 @@
     }
  },
  {
-    "pk":5,
+    "pk":26,
     "model":"products.product",
     "fields":{
        "name":"Temp Control",
@@ -337,7 +337,7 @@
     }
  },
  {
-    "pk":5,
+    "pk":27,
     "model":"products.product",
     "fields":{
        "name":"Knock Box™ Mini",
@@ -349,7 +349,7 @@
     }
  },
  {
-    "pk":5,
+    "pk":28,
     "model":"products.product",
     "fields":{
        "name":"Descaler (pack of 4)",
@@ -361,7 +361,7 @@
     }
  },
  {
-    "pk":5,
+    "pk":29,
     "model":"products.product",
     "fields":{
        "name":"58mm Naked Portafilter",
@@ -373,7 +373,7 @@
     }
  },
  {
-    "pk":5,
+    "pk":30,
     "model":"products.product",
     "fields":{
        "name":"Dosing Funnel",
@@ -385,7 +385,7 @@
     }
  },
  {
-    "pk":5,
+    "pk":31,
     "model":"products.product",
     "fields":{
        "name":"Pour Over Adapter Kit",
