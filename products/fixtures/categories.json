@@ -1,0 +1,42 @@
+[
+    {
+        "pk": 1,
+        "model": "products.category",
+        "fields": {
+            "name": "Coffee Machines",
+            "friendly_name": "Coffee Machines"
+        }
+    },
+    {
+        "pk": 2,
+        "model": "products.category",
+        "fields": {
+            "name": "Coffee Beans",
+            "friendly_name": "Coffee Beans"
+        }
+    },
+    {
+        "pk": 3,
+        "model": "products.category",
+        "fields": {
+            "name": "Decaf Coffee",
+            "friendly_name": "Decaf Coffee"
+        }
+    },
+    {
+        "pk": 4,
+        "model": "products.category",
+        "fields": {
+            "name": "Bundles",
+            "friendly_name": "Bundles"
+        }
+    },
+    {
+        "pk": 5,
+        "model": "products.category",
+        "fields": {
+            "name": "Accessories",
+            "friendly_name": "Accessories"
+        }
+    }
+]
