@@ -1,0 +1,399 @@
+[
+    {
+       "pk":1,
+       "model":"products.product",
+       "fields":{
+          "name":"Sage Barista Expresso Coffee Machine|Brushed Stainless Steel",
+          "description":"Create great tasting espresso from bean to espresso in less than a minute. The Barista Express allows you to grind the beans right before extraction, and its interchangeable filters and a choice of automatic or manual operation ensure authentic cafe style results in no time at all.",
+          "price":589,
+          "category":1,
+          "rating":5,
+          "image_url":"url('/media/sage-silver.avif')",
+          "image":"sage-silver.avif"
+       }
+    },
+    {
+        "pk":1,
+        "model":"products.product",
+        "fields":{
+           "name":"Sage The Barista Express Impress | Stainless Steel Black",
+           "description":"Create third wave specialty coffee at home from bean to espresso in less than a minute. The best of the Barista Express with the Impress Puck System. Helping you to achieve the perfect dose and a precise tamp while reducing the grinds on the machine and bench top. Experience third wave speciality coffee at home.",
+           "price":799,
+           "category":1,
+           "rating":4.4,
+           "image_url":"url('/media/sage-black.avif')",
+           "image":"sage-black.avif"
+        }
+     },
+     {
+        "pk":1,
+        "model":"products.product",
+        "fields":{
+           "name":"Nespresso Creatista Pro Coffee Machine by Sage | Stainless Steel",
+           "description":"With Creatista Pro, every coffee is a masterpiece. Let your artistic inspiration take you through an array of different milk recipes. To make the one you choose, Creatista Pro simultaneously brews the coffee and heats the milk. All you need is a spark of creativity when assembling the coffee and the milk to add the final touch to your latte art.",
+           "price":789,
+           "category":1,
+           "rating":4.5,
+           "image_url":"url('/media/sage-creatista.avif')",
+           "image":"sage-creatista.avif"
+        }
+     },
+     {
+        "pk":1,
+        "model":"products.product",
+        "fields":{
+           "name":"Sage The Barista Pro Espresso Coffee Machine | ThermoJet Heating System",
+           "description":"Barista quality performance with an intuitive interface that displays all the information you need to create third wave speciality coffee at home. The integrated grinder delivers the right amount of ground coffee on demand, for rich full flavour. With a ThermoJet heating system, 3 second heat up time and precise espresso extraction, you go from bean to cup faster than ever before.",
+           "price":1249,
+           "category":1,
+           "rating":4,
+           "image_url":"url('/media/sage-barista-pro.avif')",
+           "image":"sage-barista-pro.avif"
+        }
+     },
+     {
+        "pk":1,
+        "model":"products.product",
+        "fields":{
+           "name":"Sage Oracle Touch Coffee Machine | Brushed Stainless Steel",
+           "description":"The integrated conical burr grinder automatically grinds, doses and tamps the right dose of 19-22 grams of coffee. Creating an aromatic, full-bodied experience. When extracting espresso precise water temperature is gold. Too cold and the espresso will taste sour. Too hot and the brew will taste ashy. PID technology within the Oracle Touch maintains the water temperature within +/- 1 Â°C of the selected temperature, creating a perfectly balanced brew. 9 bar pressure is applied during the extraction process via our 15 bar Italian pump. Delivering charming, caramel-coloured coffee. ",
+           "price":2149,
+           "category":1,
+           "rating":5,
+           "image_url":"url('/media/sage-oracle-touch.avif')",
+           "image":"sage-oracle-touch.avif"
+        }
+     },
+     {
+        "pk":1,
+        "model":"products.product",
+        "fields":{
+           "name":"Sage The Vertuo Creatista Coffee Machine | Brushed Stainless Steel",
+           "description":"Craft your every milk moment with Vertuo Creatista. With a wide range of coffee options made for different cup sizes, you can indulge in black coffee or create your own milk recipes. Enjoy all your favorites, from small Flat Whites to large Cappuccinos. The integrated steam wand lets you froth your milk and personalize your recipes or try your hand at latte art. You’ll even have the choice between three different temperatures and textures, for coffee and milk that’s always to your taste. All in a premium, stainless-steel design that would fit right in behind a barista’s counter. For creative coffee, crafted at home.",
+           "price":699,
+           "category":1,
+           "rating":3.9,
+           "image_url":"url('/media/sage-vertuo.avif')",
+           "image":"sage-vertuo.avif"
+        }
+     },
+     {
+        "pk":1,
+        "model":"products.product",
+        "fields":{
+           "name":"Sage the Bambino Plus Coffee Machine | Tingari",
+           "description":"Like professional machines, the Bambino Plus can deliver third wave speciality coffee. This is made possible by the 4 keys formula. Delivering barista quality performance using a 54mm stainless steel portafilter with 18 grams of coffee for full flavour and a powerful hands-free automatic steam wand that makes microfoam milk for you ready for latte art. With a proprietary ThermoJet heating system the machine is ready to start in 3 seconds.",
+           "price":999,
+           "category":1,
+           "rating":4.6,
+           "image_url":"url('/media/sage-bambino-plus.avif')",
+           "image":"sage-bambino-plus.avif"
+        }
+     },
+     {
+     "pk":1,
+     "model":"products.product",
+     "fields":{
+        "name":"Sage Barista Touch Bean 2 Cup Coffee Machine | Brushed Stainless Steel",
+        "description":"The Barista Touch creates third wave speciality coffee at home. The 250g built-in grinder automatically delivers the right amount of ground coffee on demand. Creating an aromatic, full-bodied experience. The ThermoJet heating system achieves the optimum extraction temperature, 93Â°C, in 3 seconds. PID temperature control ensures the nuanced flavour notes of sour, salt, sugar, roast and bitter are perfectly balanced. 9 Bar pressure is applied during the extraction process via our 15 Bar Italian pump. Delivering charming, caramel-coloured coffee. The steam wand automatically textures the milk to a velvety mouthfeel. Creating microfoam capable of pouring lattÃ© art. The intuitive touch screen display with 5 pre-programmed cafÃ© drinks menu essentially places the barista in your home. So you can enjoy cafÃ© quality coffee when and wherever you chose. With a 3 second heat up time, you go from bean to cup, faster than ever before.",
+        "price":1199,
+        "category":1,
+        "rating":5,
+        "image_url":"url('/media/touch-2-cup.avif')",
+        "image":"touch-2-cup.avif"
+     }
+  },
+  {
+    "pk":2,
+    "model":"products.product",
+    "fields":{
+       "name":"Ethiopia - Ana Sora: Washed, Indigenous Varieties",
+       "description":"Ana Sora is a fairly rare example of a private estate in Ethiopia, owned by Israel Degfa. It is a relatively new and large farm, sitting at extremely high altitudes near the town of Yirgacheffe. Last year all of the coffee on the estate was naturally processed, however this time round we're excited to showcase the washed version!",
+       "price":12.50,
+       "category":2,
+       "rating":4,
+       "image_url":"url('/media/Ethiopia-Ana-Sora-Washed.png')",
+       "image":"Ethiopia-Ana-Sora-Washed.png"
+    }
+ },
+ {
+    "pk":2,
+    "model":"products.product",
+    "fields":{
+       "name":"Nicaragua - Los Placeres: Anaerobic Natural, Ethiosar",
+       "description":"Ethiosar is a varietal that thrives at low altitudes and is leaf rust resistant and very high yielding. Combining this varietal with this process has produced something unique and quite surprising. The farm its self is of an average elevation for Nicaragua, by combining the varietal with the process and the skill of the Mierisch family and their attention to detail on cupping day pickings and experimentation has yielded one of the most outstanding cups of coffee to come out of Nicaragua. Getting the most out of the land and understanding what is possible with a mixture of work and science.",
+       "price":14.50,
+       "category":2,
+       "rating":2.7,
+       "image_url":"url('/media/Nicaragua-Los-PlaceresAnaerobic.png')",
+       "image":"Nicaragua-Los-PlaceresAnaerobic.png"
+    }
+ },
+ {
+    "pk":2,
+    "model":"products.product",
+    "fields":{
+       "name":"Pacamania Blend",
+       "description":"Pac By Popular Demand! This 50/50 blend of Washed process and Honey process Pacamara from Las Brumas is an all out celebration of one of the most important varieties of coffee to us, it's total Pacamania. This blend is rare opportunity to combine two processes of the the same coffee from one farm, creating a complimentary and harmonious cup. Here's to the return of Pac O'Mara!",
+       "price":12.50,
+       "category":2,
+       "rating":4.8,
+       "image_url":"url('/media/Pacamania.png')",
+       "image":"Pacamania.png"
+    }
+ },
+ {
+    "pk":2,
+    "model":"products.product",
+    "fields":{
+       "name":"IRFU Blend",
+       "description":"You can now brew the same coffee that keeps the Irish Rugby teams ticking. As the Official Coffee supplier to Irish Rugby we have been roasting quite a lot of coffee to keep the teams going over years, so much so that we developed our newest blend especially for Irish Rugby. This blend aims to give everything that Irish Rugby needs in a coffee, The IRFU Blend is full bodied, with a perfect balance of chocolatey sweetness and a vibrant finish. 1/3 El Salvador - Mamatita: Washed, Bourbon. 1/3 Bolivia - Floripondio: Anaerobic washed, Yellow Caturra. 1/3 Colombia - Los Trapiches: Washed, Caturra. While components are subject to change, the target flavour profile of The IRFU Blend remains constant: Fruity, chocolatey, nutty",
+       "price":12.00,
+       "category":2,
+       "rating":3.8,
+       "image_url":"url('/media/IRFU-BLEND.png')",
+       "image":"IRFU-BLEND.png"
+    }
+ },
+ {
+    "pk":2,
+    "model":"products.product",
+    "fields":{
+       "name":"El Salvador - Las Brumas: Natural, Gesha",
+       "description":"Las Brumas estate graced us with this gem of a lot last year, and we were absolutely blown away with it. This natural Gesha packs a generous acidity, boasting both tropical and berry notes, matched with a satisfying syrupy mouthfeel. We are all over this coffee, like dessert in a cup!",
+       "price":18.00,
+       "category":2,
+       "rating":4.9,
+       "image_url":"url('/media/El-Salvador-Las-Brumas.png')",
+       "image":"El-Salvador-Las-Brumas.png"
+    }
+ },
+ {
+    "pk":2,
+    "model":"products.product",
+    "fields":{
+       "name":"Lavazza Qualita Rossa Coffee Beans",
+       "description":"Roasted coffee beans. Qualità Rossa is synonymous with Italian passion and joy. It can be enjoyed with or without milk at any moment of the day. It looks just as good as it tastes with a golden crema and a warm colour. With an unmistakable aroma to happily recharge your batteries and share magic moments, Qualità Rossa will be your sip of joy.",
+       "price":19.95,
+       "category":2,
+       "rating":4,
+       "image_url":"url('/media/lavazza-rossa.png')",
+       "image":"lavazza-rossa.png"
+    }
+ },
+ {
+    "pk":2,
+    "model":"products.product",
+    "fields":{
+       "name":"Lavazza Crema e Aroma",
+       "description":"This blend from the Italian brand Lavazza is created on the passion of a true master with over 120 years in the coffee business. With Lavaza Crema e Aroma, you get a carefully measured blend of Arabica and Robusta coffee beans that have created a creamy and well-balanced coffee full of flavour with mild acidity. Here is a full-bodied and intense coffee with chocolate notes, ideal for those who want their coffee extra strong.",
+       "price":14.89,
+       "category":2,
+       "rating":3.9,
+       "image_url":"url('/media/lavazza-expresso.png')",
+       "image":"lavazza-expresso.png"
+    }
+ },
+ {
+    "pk":2,
+    "model":"products.product",
+    "fields":{
+       "name":"Whole Bean Arabica Selection India Coffee",
+       "description":"SPICE NOTES - FULL BODIED. Its resounding flavour, full bodied and with a high aromatic intensity, is characterised by the notes of spices, black pepper and extra bitter chocolate.",
+       "price":7.91,
+       "category":2,
+       "rating":3,
+       "image_url":"url('/media/illy-india.png')",
+       "image":"illy-india.png"
+    }
+ },
+ {
+    "pk":2,
+    "model":"products.product",
+    "fields":{
+       "name":"CLASSICO roast Coffee Beans",
+       "description":"CLASSICO! The nuanced taste of CLASSICO from illy’s unique, 100% Arabica blend offers delicate notes of caramel, orange blossom and jasmine, with a sweet aftertaste. For those who prefer a cup of coffee with a smooth, velvety taste.",
+       "price":7.91,
+       "category":2,
+       "rating":4.6,
+       "image_url":"url('/media/illy-classic.png')",
+       "image":"illy-classic.png"
+    }
+ },
+ {
+    "pk":2,
+    "model":"products.product",
+    "fields":{
+       "name":"Ethiopia - Ana Sora: Washed, Indigenous Varieties",
+       "description":"Ana Sora is a fairly rare example of a private estate in Ethiopia, owned by Israel Degfa. It is a relatively new and large farm, sitting at extremely high altitudes near the town of Yirgacheffe. Last year all of the coffee on the estate was naturally processed, however this time round we're excited to showcase the washed version!",
+       "price":12.50,
+       "category":2,
+       "rating":4,
+       "image_url":"url('/media/Ethiopia-Ana-Sora-Washed.png')",
+       "image":"Ethiopia-Ana-Sora-Washed.png"
+    }
+ },
+ {
+    "pk":2,
+    "model":"products.product",
+    "fields":{
+       "name":"Whole Bean INTENSO roast Coffee",
+       "description":"INTENSO! Bold roast coffee has a pleasantly robust finish, with warm notes of cocoa and dried fruit.",
+       "price":7.91,
+       "category":2,
+       "rating":5,
+       "image_url":"url('/media/illy-intense.png')",
+       "image":"illy-intense.png"
+    }
+ },
+ {
+    "pk":3,
+    "model":"products.product",
+    "fields":{
+       "name":"Whole Bean Decaffeinated Coffee",
+       "description":"DECAFFEINATED! Classic roast coffee has a lingering sweetness and delicate notes of caramel, orange blossom and jasmine with no higher than 0.1% caffein",
+       "price":7.91,
+       "category":3,
+       "rating":5,
+       "image_url":"url('/media/illy-intense.png')",
+       "image":"illy-intense.png"
+    }
+ },
+ {
+    "pk":3,
+    "model":"products.product",
+    "fields":{
+       "name":"Lavazza Caffé Decaffeinated",
+       "description":"Introducing Lavazza's Caffè Decaffeinato coffee beans, the perfect choice for coffee lovers who want to enjoy the taste of coffee without the caffeine kick. With a weight of 500g, these premium quality coffee beans are carefully selected and roasted to produce a smooth, well-balanced flavour and aroma.",
+       "price":11.65,
+       "category":3,
+       "rating":3.5,
+       "image_url":"url('/media/lavazza-decaf.png')",
+       "image":"lavazza-decaf.png"
+    }
+ },
+ {
+    "pk":3,
+    "model":"products.product",
+    "fields":{
+       "name":"DECAF Colombia - Los Trapiches: Washed, Caturra",
+       "description":"Los Trapiches is a Colombian specialty decaffeinated coffee produced by 20 small coffee growers based in the municipality of Pitalito in Huila. The growers are small-scale coffee growers, whose farms range from 1 to 15 hectares and are at altitudes ranging between 1,300 - 1,700 m.a.s.l. Always decaffeinated at source, our producers use a raw cane sugar process, which we feel is the least invasive way to decaf that also adds to the coffees natural sweetness.",
+       "price":7.20,
+       "category":3,
+       "rating":4,
+       "image_url":"url('/media/3fe-decaf.png')",
+       "image":"3fe-decaf.png"
+    }
+ },
+ {
+    "pk":4,
+    "model":"products.product",
+    "fields":{
+       "name":"3fe Speciality Coffee Bundle",
+       "description":"The 3fe coffee bundle is a curated selection of premium coffee offerings from 3fe, a renowned coffee roastery. This bundle features a diverse range of high-quality beans sourced from various coffee-producing regions around the world. Expect a delightful journey through different flavor profiles, aromas, and complexities with each unique blend. Whether you're a coffee connoisseur or just looking to elevate your coffee experience, the 3fe coffee bundle promises a delicious and satisfying brew every time. Indulge in the rich and nuanced tastes crafted by 3fe's expertise in the art of coffee roasting.",
+       "price":72.00,
+       "category":4,
+       "rating":4.9,
+       "image_url":"url('/media/3fe-bundle.png')",
+       "image":"3fe-bundle.png"
+    }
+ },
+ {
+    "pk":4,
+    "model":"products.product",
+    "fields":{
+       "name":"Lavazza Espresso Italiano Coffee beans selection pack",
+       "description":"TEnjoy quality coffee the Italian way! Bundle contains: Espresso Italiano Cremoso 1kg coffee beans, Espresso Italiano Classico 1kg coffee beans and Espresso Italiano Aromatico 1kg coffee beans.",
+       "price":52.49,
+       "category":4,
+       "rating":4,
+       "image_url":"url('/media/lavazza-bundle.png')",
+       "image":"lavazza-bundle.png"
+    }
+ },
+ {
+    "pk":4,
+    "model":"products.product",
+    "fields":{
+       "name":"illy Brewed Essentials Bundle",
+       "description":"Savor illy ground drip coffee, available in Medium, Dark and Extra Dark Roasts, is coarsely ground to provide optimal extraction and flavor. Enjoy the variety of all 3 cans with an exclusive bundle featuring 2 illy Logo Mugs. The beautiful taste of illy is celebrated the world over as the pinnacle of what coffee can be. Our unique blend is composed of the finest 100% Arabica coffee beans from 9 of the best origins in the world. This exceptional coffee is dark roasted to perfection and expertly ground for drip coffee makers and French press. Our unique pressurized coffee packaging preserves the flavor and complexity of the illy blend while enhancing the coffee’s aroma and ensuring optimal freshness and consistent, never bitter taste.",
+       "price":65.00,
+       "category":4,
+       "rating":3.8,
+       "image_url":"url('/media/illy-bundle.png')",
+       "image":"illy-bundle.png"
+    }
+ },
+ {
+    "pk":5,
+    "model":"products.product",
+    "fields":{
+       "name":"Temp Control",
+       "description":"Milk jug with indicator strip gives you total control over temperature. Integrated thermometer for texturing milk to the optimum temperature between 55 - 75c Spout design, Ideal for latte art. 480ml Capacity.",
+       "price":32.90,
+       "category":5,
+       "image_url":"url('/media/temp-control.jpeg')",
+       "image":"temp-control.jpeg"
+    }
+ },
+ {
+    "pk":5,
+    "model":"products.product",
+    "fields":{
+       "name":"Knock Box™ Mini",
+       "description":"The ultra-durable knock box is as elegant as it is handy. With a hard wearing knock bar, removable for easy cleaning and a stainless steel outer.",
+       "price":29.95,
+       "category":5,
+       "image_url":"url('/media/knock-box.jpeg')",
+       "image":"knock-box.jpeg"
+    }
+ },
+ {
+    "pk":5,
+    "model":"products.product",
+    "fields":{
+       "name":"Descaler (pack of 4)",
+       "description":"Descaler for all Sage Coffee Machines and Sage Kettles.",
+       "price":16.90,
+       "category":5,
+       "image_url":"url('/media/descaler.jpeg')",
+       "image":"descaler.jpeg"
+    }
+ },
+ {
+    "pk":5,
+    "model":"products.product",
+    "fields":{
+       "name":"58mm Naked Portafilter",
+       "description":"Stainless steel 58mm portafilter with a bottomless base that helps you troubleshoot dose and grind distribution for a more even extraction. Compatible with the BES920. NOT COMPATIBLE WITH THE BARISTA EXPRESS (BES875).",
+       "price":79.90,
+       "category":5,
+       "image_url":"url('/media/naked-protafilter.jpeg')",
+       "image":"naked-protafilter.jpeg"
+    }
+ },
+ {
+    "pk":5,
+    "model":"products.product",
+    "fields":{
+       "name":"Dosing Funnel",
+       "description":"Grinding and tamping can be messy business, but the Dosing Funnel™ attachment for the portafilter prevents coffee grinds from overflowing, to help reduce mess and waste. Less mess, less waste.",
+       "price":19.90,
+       "category":5,
+       "image_url":"url('/media/dosing-funnel.jpeg')",
+       "image":"dosing-funnel.jpeg"
+    }
+ },
+ {
+    "pk":5,
+    "model":"products.product",
+    "fields":{
+       "name":"Pour Over Adapter Kit",
+       "description":"Curate your craft brew with the Pour Over Adapter Kit. Designed to suit pour over drippers such as Hario V60 & Kalita Wave. Dedicated Showerhead: For even distribution of water to group coffee Suitable to 1 - 4 cups. Included Accessories: Carry Case/Cup stand.",
+       "price":34.90,
+       "category":5,
+       "image_url":"url('/media/pour-over.jpeg')",
+       "image":"pour-over.jpeg"
+    }
+ }
+]
