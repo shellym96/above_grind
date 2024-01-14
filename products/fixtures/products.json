@@ -73,8 +73,8 @@
            "price":699,
            "category":1,
            "rating":3.9,
-           "image_url":"url('/media/sage-vertuo.avif')",
-           "image":"sage-vertuo.avif"
+           "image_url":"url('/media/sage-the-vertuo.avif')",
+           "image":"sage-the-vertuo.avif"
         }
      },
      {
@@ -138,8 +138,8 @@
        "price":12.50,
        "category":2,
        "rating":4.8,
-       "image_url":"url('/media/Pacamania.png')",
-       "image":"Pacamania.png"
+       "image_url":"url('/media/pacamania.png')",
+       "image":"pacamania.png"
     }
  },
  {
@@ -151,8 +151,8 @@
        "price":12.00,
        "category":2,
        "rating":3.8,
-       "image_url":"url('/media/IRFU-BLEND.png')",
-       "image":"IRFU-BLEND.png"
+       "image_url":"url('/media/IRFU-BLEND.jpg')",
+       "image":"IRFU-BLEND.jpg"
     }
  },
  {
@@ -177,8 +177,8 @@
        "price":19.95,
        "category":2,
        "rating":4,
-       "image_url":"url('/media/lavazza-rossa.png')",
-       "image":"lavazza-rossa.png"
+       "image_url":"url('/media/lavazza-rossa.avif')",
+       "image":"lavazza-rossa.avif"
     }
  },
  {
@@ -190,8 +190,8 @@
        "price":14.89,
        "category":2,
        "rating":3.9,
-       "image_url":"url('/media/lavazza-expresso.png')",
-       "image":"lavazza-expresso.png"
+       "image_url":"url('/media/lavazza-expresso.avif')",
+       "image":"lavazza-expresso.avif"
     }
  },
  {
@@ -203,8 +203,8 @@
        "price":7.91,
        "category":2,
        "rating":3,
-       "image_url":"url('/media/illy-india.png')",
-       "image":"illy-india.png"
+       "image_url":"url('/media/illy-india.jpeg')",
+       "image":"illy-india.jpeg"
     }
  },
  {
@@ -255,8 +255,8 @@
        "price":7.91,
        "category":3,
        "rating":5,
-       "image_url":"url('/media/illy-intense.png')",
-       "image":"illy-intense.png"
+       "image_url":"url('/media/illy-decaf.png')",
+       "image":"illy-decaf.png"
     }
  },
  {
@@ -268,8 +268,8 @@
        "price":11.65,
        "category":3,
        "rating":3.5,
-       "image_url":"url('/media/lavazza-decaf.png')",
-       "image":"lavazza-decaf.png"
+       "image_url":"url('/media/lavazza-decaf.avif')",
+       "image":"lavazza-decaf.avif"
     }
  },
  {
@@ -294,8 +294,8 @@
        "price":72.00,
        "category":4,
        "rating":4.9,
-       "image_url":"url('/media/3fe-bundle.png')",
-       "image":"3fe-bundle.png"
+       "image_url":"url('/media/3fe-bundle.jpg')",
+       "image":"3fe-bundle.jpg"
     }
  },
  {
@@ -356,8 +356,8 @@
        "description":"Descaler for all Sage Coffee Machines and Sage Kettles.",
        "price":16.90,
        "category":5,
-       "image_url":"url('/media/descaler.jpeg')",
-       "image":"descaler.jpeg"
+       "image_url":"url('/media/descaler-pack.jpeg')",
+       "image":"descaler-pack.jpeg"
     }
  },
  {
@@ -380,8 +380,8 @@
        "description":"Grinding and tamping can be messy business, but the Dosing Funnel™ attachment for the portafilter prevents coffee grinds from overflowing, to help reduce mess and waste. Less mess, less waste.",
        "price":19.90,
        "category":5,
-       "image_url":"url('/media/dosing-funnel.jpeg')",
-       "image":"dosing-funnel.jpeg"
+       "image_url":"url('/media/dosing-funnel.avif')",
+       "image":"dosing-funnel.avif"
     }
  },
  {
