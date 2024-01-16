@@ -17,7 +17,7 @@
             Coffee Machines
         </a>
         <div class="dropdown-menu border-0" aria-labelledby="clothing-link">
-            <a href="" class="dropdown-item">Sage Machines</a>
+            <a href="{% url 'products' %}?category=Coffee Machines" class="dropdown-item">Sage Machines</a>
         </div>
     </li>
     <li class="nav-item dropdown">
@@ -36,7 +36,7 @@
             Accessories
         </a>
         <div class="dropdown-menu border-0" aria-labelledby="specials-link">
-            <a href="{% url 'products' %}?category=accessories " class="dropdown-item">Sage Accessories</a>
+            <a href="{% url 'products' %}?category=Accessories " class="dropdown-item">Sage Accessories</a>
         </div>
     </li>
 </ul>
