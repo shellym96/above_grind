@@ -92,7 +92,9 @@ a.category-badge > span.badge.hover {
     right: 10px;
 }
 
-.btt-link {
+.btt-link,
+.update-link,
+.rmove-item {
     cursor: pointer;
 }
 
