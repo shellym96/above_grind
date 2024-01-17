@@ -8,7 +8,6 @@
           "price":589,
           "category":1,
           "rating":5,
-          "image_url":"url('/media/sage-silver.avif')",
           "image":"sage-silver.avif"
        }
     },
@@ -21,7 +20,6 @@
            "price":799,
            "category":1,
            "rating":4.4,
-           "image_url":"url('/media/sage-black.avif')",
            "image":"sage-black.avif"
         }
      },
@@ -34,7 +32,6 @@
            "price":789,
            "category":1,
            "rating":4.5,
-           "image_url":"url('/media/sage-creatista.avif')",
            "image":"sage-creatista.avif"
         }
      },
@@ -47,7 +44,6 @@
            "price":1249,
            "category":1,
            "rating":4,
-           "image_url":"url('/media/sage-barista-pro.avif')",
            "image":"sage-barista-pro.avif"
         }
      },
@@ -60,7 +56,6 @@
            "price":2149,
            "category":1,
            "rating":5,
-           "image_url":"url('/media/sage-oracle-touch.avif')",
            "image":"sage-oracle-touch.avif"
         }
      },
@@ -73,7 +68,6 @@
            "price":699,
            "category":1,
            "rating":3.9,
-           "image_url":"url('/media/sage-the-vertuo.avif')",
            "image":"sage-the-vertuo.avif"
         }
      },
@@ -86,7 +80,6 @@
            "price":999,
            "category":1,
            "rating":4.6,
-           "image_url":"url('/media/sage-bambino-plus.avif')",
            "image":"sage-bambino-plus.avif"
         }
      },
@@ -99,7 +92,6 @@
         "price":1199,
         "category":1,
         "rating":5,
-        "image_url":"url('/media/touch-2-cup.avif')",
         "image":"touch-2-cup.avif"
      }
   },
@@ -112,7 +104,6 @@
        "price":12.50,
        "category":2,
        "rating":4,
-       "image_url":"url('/media/Ethiopia-Ana-Sora-Washed.png')",
        "image":"Ethiopia-Ana-Sora-Washed.png"
     }
  },
@@ -125,7 +116,6 @@
        "price":14.50,
        "category":2,
        "rating":2.7,
-       "image_url":"url('/media/Nicaragua-Los-PlaceresAnaerobic.png')",
        "image":"Nicaragua-Los-PlaceresAnaerobic.png"
     }
  },
@@ -138,7 +128,6 @@
        "price":12.50,
        "category":2,
        "rating":4.8,
-       "image_url":"url('/media/pacamania.png')",
        "image":"pacamania.png"
     }
  },
@@ -151,7 +140,6 @@
        "price":12.00,
        "category":2,
        "rating":3.8,
-       "image_url":"url('/media/IRFU-BLEND.jpg')",
        "image":"IRFU-BLEND.jpg"
     }
  },
@@ -164,7 +152,6 @@
        "price":18.00,
        "category":2,
        "rating":4.9,
-       "image_url":"url('/media/El-Salvador-Las-Brumas.png')",
        "image":"El-Salvador-Las-Brumas.png"
     }
  },
@@ -177,7 +164,6 @@
        "price":19.95,
        "category":2,
        "rating":4,
-       "image_url":"url('/media/lavazza-rossa.avif')",
        "image":"lavazza-rossa.avif"
     }
  },
@@ -190,7 +176,6 @@
        "price":14.89,
        "category":2,
        "rating":3.9,
-       "image_url":"url('/media/lavazza-expresso.avif')",
        "image":"lavazza-expresso.avif"
     }
  },
@@ -203,7 +188,6 @@
        "price":7.91,
        "category":2,
        "rating":3,
-       "image_url":"url('/media/illy-india.jpeg')",
        "image":"illy-india.jpeg"
     }
  },
@@ -216,7 +200,6 @@
        "price":7.91,
        "category":2,
        "rating":4.6,
-       "image_url":"url('/media/illy-classic.png')",
        "image":"illy-classic.png"
     }
  },
@@ -229,7 +212,6 @@
        "price":12.50,
        "category":2,
        "rating":4,
-       "image_url":"url('/media/Ethiopia-Ana-Sora-Washed.png')",
        "image":"Ethiopia-Ana-Sora-Washed.png"
     }
  },
@@ -242,7 +224,6 @@
        "price":7.91,
        "category":2,
        "rating":5,
-       "image_url":"url('/media/illy-intense.png')",
        "image":"illy-intense.png"
     }
  },
@@ -255,7 +236,6 @@
        "price":7.91,
        "category":3,
        "rating":5,
-       "image_url":"url('/media/illy-decaf.png')",
        "image":"illy-decaf.png"
     }
  },
@@ -268,7 +248,6 @@
        "price":11.65,
        "category":3,
        "rating":3.5,
-       "image_url":"url('/media/lavazza-decaf.avif')",
        "image":"lavazza-decaf.avif"
     }
  },
@@ -281,7 +260,6 @@
        "price":7.20,
        "category":3,
        "rating":4,
-       "image_url":"url('/media/3fe-decaf.png')",
        "image":"3fe-decaf.png"
     }
  },
@@ -294,7 +272,6 @@
        "price":72.00,
        "category":4,
        "rating":4.9,
-       "image_url":"url('/media/3fe-bundle.jpg')",
        "image":"3fe-bundle.jpg"
     }
  },
@@ -307,7 +284,6 @@
        "price":52.49,
        "category":4,
        "rating":4,
-       "image_url":"url('/media/lavazza-bundle.png')",
        "image":"lavazza-bundle.png"
     }
  },
@@ -320,7 +296,6 @@
        "price":65.00,
        "category":4,
        "rating":3.8,
-       "image_url":"url('/media/illy-bundle.png')",
        "image":"illy-bundle.png"
     }
  },
@@ -332,7 +307,6 @@
        "description":"Milk jug with indicator strip gives you total control over temperature. Integrated thermometer for texturing milk to the optimum temperature between 55 - 75c Spout design, Ideal for latte art. 480ml Capacity.",
        "price":32.90,
        "category":5,
-       "image_url":"url('/media/temp-control.jpeg')",
        "image":"temp-control.jpeg"
     }
  },
@@ -344,7 +318,6 @@
        "description":"The ultra-durable knock box is as elegant as it is handy. With a hard wearing knock bar, removable for easy cleaning and a stainless steel outer.",
        "price":29.95,
        "category":5,
-       "image_url":"url('/media/knock-box.jpeg')",
        "image":"knock-box.jpeg"
     }
  },
@@ -356,7 +329,6 @@
        "description":"Descaler for all Sage Coffee Machines and Sage Kettles.",
        "price":16.90,
        "category":5,
-       "image_url":"url('/media/descaler-pack.jpeg')",
        "image":"descaler-pack.jpeg"
     }
  },
@@ -368,7 +340,6 @@
        "description":"Stainless steel 58mm portafilter with a bottomless base that helps you troubleshoot dose and grind distribution for a more even extraction. Compatible with the BES920. NOT COMPATIBLE WITH THE BARISTA EXPRESS (BES875).",
        "price":79.90,
        "category":5,
-       "image_url":"url('/media/naked-protafilter.jpeg')",
        "image":"naked-protafilter.jpeg"
     }
  },
@@ -380,7 +351,6 @@
        "description":"Grinding and tamping can be messy business, but the Dosing Funnel™ attachment for the portafilter prevents coffee grinds from overflowing, to help reduce mess and waste. Less mess, less waste.",
        "price":19.90,
        "category":5,
-       "image_url":"url('/media/dosing-funnel.avif')",
        "image":"dosing-funnel.avif"
     }
  },
@@ -392,7 +362,6 @@
        "description":"Curate your craft brew with the Pour Over Adapter Kit. Designed to suit pour over drippers such as Hario V60 & Kalita Wave. Dedicated Showerhead: For even distribution of water to group coffee Suitable to 1 - 4 cups. Included Accessories: Carry Case/Cup stand.",
        "price":34.90,
        "category":5,
-       "image_url":"url('/media/pour-over.jpeg')",
        "image":"pour-over.jpeg"
     }
  }
