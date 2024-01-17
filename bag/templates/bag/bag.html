@@ -62,7 +62,7 @@
                                                     </div>
                                                     <input class="form-control form-contro-sm qty_input" type="number"
                                                     name="quantity" value="{{ item.quantity }}" min="1" max="99"
-                                                    data-item_id="{{ product.id }}" id="id_qty_{{ product.id }}">
+                                                    data-item_id="{{ item.item_id }}" id="id_qty_{{ item.item_id }}">
                                                     <div class="input-group-append">
                                                         <button class="increment-qty btn btn-sm btn-black rounded-0"
                                                             data-item_id="{{ item.item_id }}" id="increment-qty_{{ item.item_id }}">
@@ -85,7 +85,7 @@
                             <tr>
                                 <td colspan="5" class="pt-5 text-right">
                                     <h6><strong>Bag Total: €{{ total|floatformat:2 }}</strong></h6>
-                                    <h6>Delivery: ${{ delivery|floatformat:2 }}</h6>
+                                    <h6>Delivery: €{{ delivery|floatformat:2 }}</h6>
                                     <h4 class="mt-4"><strong>Grand Total: €{{ grand_total|floatformat:2 }}</strong></h4>
                                     {% if free_delivery_delta > 0 %}
                                         <p class="mb-1 text-danger">
@@ -131,17 +131,6 @@
     {% include "products/includes/quantity_input_script.html" %}
 
     <script>
-
-        // force qty_input to only be 0-99
-        $(".qty_input").keyup(function() {
-            let inputVal = $(this).val();
-            if (inputVal < 0 || inputVal > 99 || inputVal.length > 2) {
-                $(this).val("");
-            } else {
-                $(this).val(inputVal);
-            }
-        });
-
         // Update quantity on click
         $(".update-link").click(function() {
             let form = $(this).siblings("form.update-form");
