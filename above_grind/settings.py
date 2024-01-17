@@ -47,6 +47,8 @@ INSTALLED_APPS = [
     'bag',
     'newsletter',
     'checkout',
+    
+    'crispy_forms',
 ]
 
 MIDDLEWARE = [
@@ -60,6 +62,8 @@ MIDDLEWARE = [
 ]
 
 ROOT_URLCONF = 'above_grind.urls'
+
+CRISPY_TEMPLATE_PACK = 'bootstrap4'
 
 TEMPLATES = [
     {
