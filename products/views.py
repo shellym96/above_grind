@@ -13,7 +13,7 @@ def all_products(request):
 
     products = Product.objects.all()
     query = None
-    categories = Category.objects.all()
+    categories = None
     sort = None
     direction = None
 
@@ -26,7 +26,6 @@ def all_products(request):
                 products = products.annotate(lower_name=Lower('name'))
             if sortkey == 'category':
                 sortkey = 'category__name'
-
             if 'direction' in request.GET:
                 direction = request.GET['direction']
                 if direction == 'desc':
@@ -53,8 +52,10 @@ def all_products(request):
         'products': products,
         'search_term': query,
         'current_categories': categories,
+        'current_sorting': current_sorting,
     }
-    return render(request, 'products/products.html',context)
+
+    return render(request, 'products/products.html', context)
 
 
 def product_detail(request, product_id):
@@ -68,9 +69,10 @@ def product_detail(request, product_id):
 
     return render(request, 'products/product_detail.html', context)
 
+
 def add_product(request):
-    """ add a product to the store """
-    from = ProductForm()
+    """ Add a product to the store """
+    form = ProductForm()
     template = 'products/add_product.html'
     context = {
         'form': form,
