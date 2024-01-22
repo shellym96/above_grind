@@ -1,0 +1,21 @@
+Hi {{ order.full_name }}!
+
+Order Number: {{ order.order_number }}
+
+Thank you for choosing Above Grind to get your coffee fix! 
+Your order information is below : 
+
+Order Total: €{{ order.order_total }}
+Delivery: €{{ order.delivery_cost }}
+Grand Total: €{{ order.grand_total }}
+
+Your order should be with you soon and will be delivered to {{ order.street_address1 }} in
+ {{ order.town_or_city }}, {{ order.country }}.
+
+
+We appreciate you!
+Enjoy,
+
+Above GRIND Team!
+
+If you have any questions, contact us at {{ contact_email }}.
