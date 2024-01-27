@@ -175,6 +175,13 @@ a.category-badge > span.badge.hover {
     overflow-x: hidden;
     overflow-y: auto;
 }
+/* Footer */
+
+#newsletter-btn {
+    color: white;
+    background-color: black;
+    border: none;
+}
 
 /* Allauth form formatting */
 
