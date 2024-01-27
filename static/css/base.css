@@ -10,6 +10,11 @@ body {
     font-family: 'Roboto';
 }
 
+body > footer {
+    position: sticky;
+    top: 100vh;
+  }
+
 /* from Bulma , ensures icons remain center and have consistent size */
 .icon {
     align-items: center;
@@ -176,6 +181,18 @@ a.category-badge > span.badge.hover {
     overflow-y: auto;
 }
 /* Footer */
+
+footer {
+    margin-top: 3%;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 115px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background: rgb(228, 197, 182);
+  }
 
 #newsletter-btn {
     color: white;
