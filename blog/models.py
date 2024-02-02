@@ -6,7 +6,7 @@ class reviews(models.Model):
 
     review = models.CharField(blank=True, null=True, max_length=100)
     title = models.CharField(max_length=130, unique=True)
-    product = models.ForeignKey(on_delete=models.CASCADE, related_name='reviews',)
+    product = models.ForeignKey(Product, on_delete=models.CASCADE, related_name='reviews',)
     updated_on = models.DateTimeField(auto_now=True)
     content = models.TextField()
     featured_image = models.ImageField(blank=True, upload_to='blogimages')
