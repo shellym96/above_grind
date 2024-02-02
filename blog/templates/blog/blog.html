@@ -11,6 +11,9 @@
             <div class="col text-center">
                 <h2 class="text-black">Above Grind Blog</h2>
                 <hr>
+                {% for reviews.product.name in products %}
+                <li>{{ products.name }}</li>
+                {% endfor %}
             </div>
         </div>
     </div>
