@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block extra_css %}
+    <link rel="stylesheet" href="{% static 'css/blog.css' %}">
+{% endblock %}
+
+{% block page_header %}
+    <div class="container header-container">
+        <div class="row">
+            <div class="col text-center">
+                <h2 class="text-black">Above Grind Blog</h2>
+                <hr>
+                {% for reviews.product.name in products %}
+                <li>{{ products.name }}</li>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+{% endblock %}
