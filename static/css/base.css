@@ -191,13 +191,17 @@ footer {
     display: flex;
     flex-direction: column;
     text-align: center;
-    background: rgb(228, 197, 182);
+    position: sticky;
   }
 
 #newsletter-btn {
     color: white;
     background-color: black;
     border: none;
+}
+
+#sign-up {
+    text-align: center;
 }
 
 /* Allauth form formatting */
