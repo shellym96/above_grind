@@ -31,7 +31,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY', '')
 #DEBUG = 'DEVELOPMENT' in os.environ
 DEBUG = True
 
-ALLOWED_HOSTS = ['above-grind-d535f4f31606.herokuapp.com', '8000-shellym96-abovegrind-5h8dzh08uc0.ws-eu107.gitpod.io', 'localhost']
+ALLOWED_HOSTS = ['above-grind-d535f4f31606.herokuapp.com', '8000-shellym96-abovegrind-5h8dzh08uc0.ws-eu108.gitpod.io', 'localhost']
 
 
 # Application definition
