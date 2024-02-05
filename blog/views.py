@@ -1,35 +1,36 @@
-from django.shortcuts import render, get_object_or_404, reverse
-from django.views import generic, View
-from django.http import HttpResponseRedirect
-from django.contrib import messages
+from django.shortcuts import render, get_object_or_404, redirect
+from .models import Post, Category, Comment
 from .forms import CommentForm
-from .models import reviews
 
 
-class BlogList(generic.ListView):
-    model = reviews
-    queryset = reviews.objects.all()
-    template_name = "blog/blog_list.html"
+def post_list(request):
+    posts = Post.objects.all().order_by('-published_date')
+    return render(request, 'blog/post_list.html',{
+        'posts': posts
+    })
 
 
+def post_detail(request, slug):
+    """Class to return the blog page with posts"""
+    
+    post = get_object_or_404(Post, slug=slug)
+    comments = post.comments.filter(active=True)
+    new_comment = None
 
-class Blog(View):
-    """Class & Method to call the post details pages."""
+    if request.method == 'POST':
+        comment_form = CommentForm(data=request.POST)
+        if comment_form.is_valid():
+            new_comment = comment_form.save(commit=False)
+            new_comment.post = post
+            new_comment.save()
+            return redirect('post_detail', slug=slug)
+    else:
+        comment_form = CommentForm()
 
-    def get(self, request, slug, *args, **kwargs):
-        queryset = Post.objects.filter(status=1)
-        post = get_object_or_404(queryset, slug=slug)
-        comments = post.comments.order_by("-created_on")
-        liked = False
-        if post.likes.filter(id=self.request.user.id).exists():
-            liked = True
+    return render(request, 'blog/post_detail.html',{
+        'post': post,
+        'comments': comments,
+        'new_comment': new_comment,
+        'comment_form': comment_form
+    })
 
-        return render(
-            request,
-            "blog/post_detail.html",
-            {
-                "post": post,
-                "comments": comments,
-                "comment_form": CommentForm(),
-            },
-        )
