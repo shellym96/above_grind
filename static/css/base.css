@@ -13,6 +13,7 @@ body {
 body > footer {
     position: sticky;
     top: 100vh;
+    background-color: white;
   }
 
 /* from Bulma , ensures icons remain center and have consistent size */
