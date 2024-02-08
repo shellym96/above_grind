@@ -1,0 +1,107 @@
+{% extends "base.html" %}
+{% load static %}
+{% load crispy_forms_field %}
+
+{% block extra_css %}
+    <link rel="stylesheet" href="{% static '' %}">
+{% endblock %}
+
+{% block page_header %}
+    <div class="container header-container">
+        <div class="row">
+            <div class="col text-center">
+                <h2 class="text-black mt-3">FAQ's</h2>
+                <hr>
+            </div>
+        </div>
+    </div>
+{% endblock %}
+
+{% block content %}
+
+<div class="container header-container">
+    <div class="row">
+        <div class="col text-center">
+            <div id="accordion">
+                <div class="card">
+                  <div class="card-header" id="headingOne">
+                    <h5 class="mb-0">
+                      <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        Why is my order taking so long?
+                      </button>
+                    </h5>
+                  </div>
+              
+                  <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                    <div class="card-body">
+                        <p>There are multiple reason's why your delivery may be delayed: </p>
+                                <h4>Weather Conditions:</h4>
+                                <li>Severe weather such as storms, hurricanes, snowstorms,
+                                   or floods can disrupt transportation networks and cause delays in delivery schedules.</li>
+
+                                <h4>Transportation Issues:</h4>
+                                <li>Problems with transportation infrastructure, including accidents, road closures,
+                                    or traffic congestion, can hinder the timely delivery of goods.</li>
+
+                                <h4>Logistical Challenges:</h4>
+                                <li>Complex logistical operations, including sorting, handling, and routing packages,
+                                  may encounter delays due to high volumes of shipments or inefficiencies in the supply chain.</li>
+
+                                <h4>Customs Clearance:</h4>
+                                <li>International shipments may experience delays during customs clearance processes,
+                                  where goods are inspected and assessed for compliance with import/export regulations.</li>
+
+                                <h4>Unexpected Circumstances:</h4>
+                                <li> Unforeseen events such as natural disasters, labor strikes,
+                                  or political unrest can disrupt normal business operations and
+                                  lead to delays in delivery services.</li>
+
+                                <h4>Incomplete or Incorrect Addresses:</h4>
+                                <li>Delivery delays may occur if addresses provided by customers are incomplete,
+                                  inaccurate, or difficult to locate, leading to challenges for delivery personnel.</li>
+
+                                <h4>High Demand Periods:</h4>
+                                <li>During peak seasons such as holidays or promotional events, delivery services
+                                  may experience increased demand, resulting in longer delivery timescales.</li>
+
+                                <h4>Operational Issues:</h4>
+                                <li>Internal challenges within delivery companies, such as staffing shortages,
+                                  equipment failures, or operational errors, can impede the smooth execution of delivery services.</li>
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header" id="headingTwo">
+                    <h5 class="mb-0">
+                      <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        How do I get in touch?
+                      </button>
+                    </h5>
+                  </div>
+                  <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                    <div class="card-body">
+                      You can contact us by filling in the contact form here: {% url 'contact' %},
+                      emailing us or ringing us at the below contact number.
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header" id="headingThree">
+                    <h5 class="mb-0">
+                      <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        What is your returns policy?
+                      </button>
+                    </h5>
+                  </div>
+                  <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                    <div class="card-body">
+                        <p>To see our full returns policy please click <a href="{% url 'returns' %}">here</a></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+    </div>
+</div>
+
+{% endblock %}
