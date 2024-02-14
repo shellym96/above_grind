@@ -183,17 +183,19 @@ a.category-badge > span.badge.hover {
 }
 /* Footer */
 
-footer {
-    margin-top: 3%;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    height: 115px;
-    display: flex;
-    flex-direction: column;
+.footer-container{
+    margin-top: 50px;
+    background-color:white;
+    color: black;
     text-align: center;
-    position: sticky;
-  }
+    width: 100%;
+    height: 33%;
+}
+
+.btn-footer {
+    border-color: rgb(137, 64, 28);
+    color: black;
+}
 
 #newsletter-btn {
     color: white;
