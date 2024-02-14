@@ -195,6 +195,15 @@ a.category-badge > span.badge.hover {
 .btn-footer {
     border-color: rgb(137, 64, 28);
     color: black;
+    margin-top: 3%;
+}
+
+.footer-headers {
+    padding-top: 1%;
+}
+
+.sub-header {
+    margin-bottom: 10%;
 }
 
 #newsletter-btn {
@@ -205,8 +214,13 @@ a.category-badge > span.badge.hover {
 
 #sign-up {
     text-align: center;
+    padding-top: 5%;
+    padding-bottom: 3%;
 }
 
+.sign-me-up {
+    margin-bottom: 10%;
+}
 /* Allauth form formatting */
 
 .allauth-form-inner-content p {
