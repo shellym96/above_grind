@@ -19,7 +19,7 @@
 <div class="container-fluid">
     <div class="row">
         <div class="col text-center mt-3">
-            <form action="{% url 'newsletter' %}">
+            <form action="{% url 'newsletter' %}" method="POST">
                 {% csrf_token %}
                 {{ form.as_p }}
                 <button type="submit" class="btn btn-dark">Sign me up!</button>
