@@ -1,15 +1,16 @@
 {% extends "base.html" %}
 {% load static %}
+{% load crispy_forms_field %}
 
 {% block extra_css %}
-    <link rel="stylesheet" href="{% static 'contact/css/contact.css' %}">
+    <link rel="stylesheet" href="{% static '' %}">
 {% endblock %}
 
 {% block page_header %}
     <div class="container header-container">
         <div class="row">
             <div class="col text-center">
-                <h1 class="text-black mt-3">Our Returns Policy</h1>
+                <h2 class="text-black mt-3">Our Returns Policy</h2>
                 <hr>
             </div>
         </div>
@@ -17,41 +18,59 @@
 {% endblock %}
 
 {% block content %}
-<div class="card-body">
-    <div class="container header-container">
-        <div class="row justify-content-center">
-            <div class="col-xs-12 col-md-6 text-center">
-                <p>
-                    At Above Grind, we understand that sometimes returns are necessary.
-                    Rest assured, we make the return process simple and hassle-free,
-                    offering swift and courteous assistance to ensure your complete satisfaction with our products.
-                    <strong>Products can be returned once they have not been opened or used.</strong></p>
-                
-                <h2>Return Process</h2>
-                <ul>
-                    <h4>Initiate Return:</h4>
-                    <li>Contact our customer service team via email or phone to initiate the return process.
-                        Provide your order details and reason for the return.</li>
 
-                    <h4>Receive Authorization:</h4>
-                    <li>Once your return request is approved, you will receive a return
-                        authorization code along with instructions on how to proceed.
-                        Package Items: Securely package the items you wish to return,
-                        ensuring they are in their original condition and packaging.</li>
+<div class="container header-container">
+    <div class="row">
+        <div class="col text-center">
+            <div id="accordion">
+                <div class="card">
+                  <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                    <div class="card-body">
+                        <p>
+                            At Above Grind, we understand that sometimes returns are necessary.
+                            Rest assured, we make the return process simple and hassle-free,
+                            offering swift and courteous assistance to ensure your complete satisfaction with our products.
+                            <br>
+                            <strong>Products can be returned once they have not been opened or used.</strong>
+                        </p>
+                        <h2>Return Process</h2>
+                        <ul>
+                            <h4>Initiate Return:</h4>
+                            <li>Contact our customer service team via email or phone to initiate the return process.
+                                Provide your order details and reason for the return.</li>
 
-                    <h4>Shipping:</h4>
-                    <li>Affix the return authorization code on the package and ship it back to us using
-                        a trackable shipping method of your choice.
-                        Customers are responsible for return shipping costs unless the return is due to an error on our part.</li>
+                            <br>
 
-                    <h4>Processing:</h4>
-                    <li>Once we receive the returned items, our team will inspect them to ensure they meet our return policy criteria.</li>
+                            <h4>Receive Authorization:</h4>
+                            <li>Once your return request is approved, you will receive a return
+                                authorization code along with instructions on how to proceed.
+                                Package Items: Securely package the items you wish to return,
+                                ensuring they are in their original condition and packaging.</li>
 
-                    <h4>Refund or Exchange:</h4>
-                    <li>Upon successful inspection, we will process your refund or exchange as per your request and notify you accordingly.</li>
+                            <br>
 
-                    <p>We strive to make the returns process as straightforward and convenient as possible, ensuring that our valued customers are satisfied with their Above Grind experience.</p>
-                </ul>
+                            <h4>Shipping:</h4>
+                            <li>Affix the return authorization code on the package and ship it back to us using
+                                a trackable shipping method of your choice.
+                                Customers are responsible for return shipping costs unless the return is due to an error on our part.</li>
+
+                            <br>
+
+                            <h4>Processing:</h4>
+                            <li>Once we receive the returned items, our team will inspect them to ensure they meet our return policy criteria.</li>
+                            
+                            <br>
+
+                            <h4>Refund or Exchange:</h4>
+                            <li>Upon successful inspection, we will process your refund or exchange as per your request and notify you accordingly.</li>
+                            
+                            <br>
+                            
+                            <p>We strive to make the returns process as straightforward and convenient as possible, ensuring that our valued customers are satisfied with their Above Grind experience.</p>
+                        </ul>
+                    </div>
+                  </div>
+                </div>
             </div>
         </div>
     </div>
