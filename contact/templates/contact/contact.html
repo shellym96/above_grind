@@ -12,6 +12,9 @@
             <div class="col text-center">
                 <h2 class="text-black mt-3">Contact Us Form</h2>
                 <hr>
+                <small class="mt-3 bb-3 text-black">
+                    We appreciate your custom and will get back to you as soon as possible!
+                <br>Please allow up to 48 hours for us to get back to you</small>
             </div>
         </div>
     </div>
@@ -25,12 +28,14 @@
                 {% csrf_token %}
                 {{ form | crispy }}
                 <div class="text-right">
-                    <a class="btn btn-warning rounded-0" href="{% url 'home' %}">Cancel Request</a>
-                    <button class="btn btn-danger rounded-0" type="submit">Submit form</button>
+                    <a class="btn btn-warning rounded-0" href="{% url 'home' %}">
+                        Cancel Request
+                    </a>
+                    <button class="btn btn-danger rounded-0" type="submit">
+                        Submit form
+                    </button>
                 </div>
             </form>
-            <small class="mt-3 bb-3">Thank you for submitting your form. We appreciate your custom and will get back to you as soon as possible!
-            <br>Please allow up to 48 hours for us to get back to you</small>
         </div>            
     </div>
 </div>
