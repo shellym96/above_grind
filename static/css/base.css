@@ -353,6 +353,10 @@ a.category-badge > span.badge.hover {
         font-size: 1rem;
     }
 
+    .navbar-menu {
+        text-align: right;
+    }
+
     #delivery-banner h4 {
         font-size: .9rem;
     }
