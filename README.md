@@ -64,31 +64,6 @@ The font I chose to go with continues throughout the entire site.
 - As a site administrator, I should be able to delete products, so that I can remove them from the site.
 - As a site administrator, I should be able to make changes to products on the site page so that I can update them at ease without having to access admin panel.
 
----
-#### Business Overview
-
-The business is a B2C e-commerce platform whose goal is to provide tangible products to it's customers through an online store.
-With products ranging from as low as €7.20 to as high as €2149.00. Holding products from coffee machines of all sizes with accessories (separately) to all types of coffee beans to suit each individual’s needs.
-
-The benefits for the business owner are:
-
-1. Easy to scale the business as it grows
-2. Can cater to customers globally
-3. Having a multitude of various machines, coffee beans (caffeinated, decaffeinated and bundles), and accessories is good for buyers as they have options to suit their price range.
-4. Low price point on certain products would encourage impulse buying from customers who may be considering purchasing from the business. Especially adding the bundles in.
-5. Coffee is always going to be a "trend", so the site will always be in use for coffee lovers.
-
-The cons of this business model are:
-
-1. Establishing a brand from the ground up takes time and immediate results are unlikely without a strong marketing strategy in place.
-2. Getting customers organically takes time so the business would need to manually market the business or use paid advertising.
-3. Not having a physical store to walk into, can make it harder to build trust and loyalty with customers. Which is why in future features I would like to add to the users profile that they could add their birthday for a discount email on their birthday.
-
-Having a subscription model in place, gives the users the option to receive updates on the products getting discounted down, getting personal discounts for their birthdays and new products on the block. 
-As well as having the traditional e-commerce way of shopping.
-
----
-
 ## Wireframes
 
 To follow best practice, wireframes were developed for mobile, tablet, and desktop sizes.
@@ -346,13 +321,26 @@ It is of the simplest **B2C** forms, as it focuses on individual transactions, a
 such as monthly/annual subscriptions.
 
 It is still in its early development stages, although it already has a newsletter, and links for social media marketing.
+With products ranging from as low as €7.20 to as high as €2149.00. Holding products from coffee machines of all sizes with accessories (separately) to all types of coffee beans to suit each individual’s needs.
 
-Social media can potentially build a community of users around the business, and boost site visitor numbers,
+The benefits for the business owner are:
+
+1. Easy to scale the business as it grows.
+2. Can cater to customers globally.
+3. Having a multitude of various machines, coffee beans (caffeinated, decaffeinated and bundles), and accessories is good for buyers as they have options to suit their price range.
+4. Low price point on certain products would encourage impulse buying from customers who may be considering purchasing from the business. Especially adding the bundles in.
+5. Coffee is always going to be a "trend", so the site will always be in use for coffee lovers.
+
+The cons of this business model are:
+
+1. Establishing a brand from the ground up takes time and immediate results are unlikely without a strong marketing strategy in place.
+2. Getting customers organically takes time so the business would need to manually market the business or use paid advertising.
+3. Not having a physical store to walk into, can make it harder to build trust and loyalty with customers. Which is why in future features I would like to add to the users profile that they could add their birthday for a discount email on their birthday.
+
+Having a subscription model in place, gives the users the option to receive updates on what items are on special offer, new items in stock, updates to business hours, notifications of events, and much more!
+Also social media can potentially build a community of users around the business, and boost site visitor numbers,
 especially when using larger platforms such a Facebook.
-
-A newsletter list can be used by the business to send regular messages to site users.
-For example, what items are on special offer, new items in stock,
-updates to business hours, notifications of events, and much more!
+As well as having the traditional e-commerce way of shopping.
 
 ## Search Engine Optimization (SEO) & Social Media Marketing
 
@@ -370,7 +358,7 @@ to check the frequency of some of my site's primary keywords (only until the fre
 
 ### Sitemap
 
-I've used [XML-Sitemaps](https://www.xml-sitemaps.com) to generate a sitemap.xml file.
+I've used [octopus.do](https://octopus.do/n48a7chgn6) to generate a sitemap.xml file.
 This was generated using my deployed site URL: https://above-grind-d535f4f31606.herokuapp.com
 
 After it finished crawling the entire site, it created a
@@ -402,7 +390,7 @@ Using more popular providers with a wider user base, such as Facebook, typically
 
 ### Newsletter Marketing
 
-I have incorporate a newsletter sign-up form on my application, to allow users to supply their email address if they are interested in learning more. 
+I have incorporated a newsletter sign-up form on my application, to allow users to supply their email address if they are interested in learning more. 
 I have done this by creating a custom model for the newsletter.
 
 
