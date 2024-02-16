@@ -4,7 +4,7 @@ Welcome to Above Grind. A website I designed for all coffee lovers, to purchase 
 
 Consider adding a mockup image using the "Am I Responsive" website.
 Here's your deployed site as an example:
-https://ui.dev/amiresponsive?url=https://above-grind-d535f4f31606.herokuapp.com
+https://amiresponsive.co.uk/
 
 ![screenshot](documentation/mockup.png)
 
@@ -64,6 +64,31 @@ The font I chose to go with continues throughout the entire site.
 - As a site administrator, I should be able to delete products, so that I can remove them from the site.
 - As a site administrator, I should be able to make changes to products on the site page so that I can update them at ease without having to access admin panel.
 
+---
+#### Business Overview
+
+The business is a B2C e-commerce platform whose goal is to provide tangible products to it's customers through an online store.
+With products ranging from as low as €7.20 to as high as €2149.00. Holding products from coffee machines of all sizes with accessories (separately) to all types of coffee beans to suit each individual’s needs.
+
+The benefits for the business owner are:
+
+1. Easy to scale the business as it grows
+2. Can cater to customers globally
+3. Having a multitude of various machines, coffee beans (caffeinated, decaffeinated and bundles), and accessories is good for buyers as they have options to suit their price range.
+4. Low price point on certain products would encourage impulse buying from customers who may be considering purchasing from the business. Especially adding the bundles in.
+5. Coffee is always going to be a "trend", so the site will always be in use for coffee lovers.
+
+The cons of this business model are:
+
+1. Establishing a brand from the ground up takes time and immediate results are unlikely without a strong marketing strategy in place.
+2. Getting customers organically takes time so the business would need to manually market the business or use paid advertising.
+3. Not having a physical store to walk into, can make it harder to build trust and loyalty with customers. Which is why in future features I would like to add to the users profile that they could add their birthday for a discount email on their birthday.
+
+Having a subscription model in place, gives the users the option to receive updates on the products getting discounted down, getting personal discounts for their birthdays and new products on the block. 
+As well as having the traditional e-commerce way of shopping.
+
+---
+
 ## Wireframes
 
 To follow best practice, wireframes were developed for mobile, tablet, and desktop sizes.
@@ -71,8 +96,8 @@ I've used [Balsamiq](https://balsamiq.com/wireframes) to design my site wirefram
 
 ### Mobile Wireframes
 
-< details >
-< summary > Click here to see the Mobile Wireframes < / summary >
+<details>
+<summary> Click here to see the Mobile Wireframes </summary>
 
 Home
   - ![screenshot](documentation/wireframes/mobile-home.png)
@@ -95,18 +120,18 @@ Checkout
   Contact Us
   - ![screenshot](documentation/wireframes/mobile-contact-us.png)
 
-< / details >
+</details>
 
 ### Tablet Wireframes
 
-< details >
-< summary > Click here to see the Tablet Wireframes < / summary >
+<details>
+<summary> Click here to see the Tablet Wireframes </summary>
 
 Home
   - ![screenshot](documentation/wireframes/tablet-home.png)
 
 Products
-  - ![screenshot](documentation/wireframes/tablet-product.png)
+  - ![screenshot](documentation/wireframes/tablet-products.png)
 
 Product Details
   - ![screenshot](documentation/wireframes/tablet-product-detail.png)
@@ -124,12 +149,12 @@ Checkout
   - ![screenshot](documentation/wireframes/tablet-contact-us.png)
 
 
-< / details >
+</details>
 
 ### Desktop Wireframes
 
-< details >
-< summary > Click here to see the Desktop Wireframes < / summary >
+<details>
+<summary> Click here to see the Desktop Wireframes </summary>
 
 Home
   - ![screenshot](documentation/wireframes/desktop-home.png)
@@ -153,7 +178,7 @@ Checkout
   - ![screenshot](documentation/wireframes/desktop-contact-us.png)
 
 
-< / details >
+</details>
 
 ## Features
 
@@ -214,6 +239,8 @@ Checkout
 	- To send a Happy Birthday discount to the users who have subscribed or signed up to our newsletter when it is their birthday.
 - Product Reviews
 	- To give customers who have bought a product to leave their own reviews on how they felt the product was.
+- Webhook handler 
+	- I have the emails sending to the terminal and thank you for your order goes to your own email address, but would love to have this working the entire site, contact form (thank you for sending us your issue etc)
 
 ## Tools & Technologies Used
 
@@ -714,20 +741,6 @@ You can fork this repository by using the following steps:
 | [Chris Beams](https://chris.beams.io/posts/git-commit) | version control | "How to Write a Git Commit Message" |
 
 ### Media
-
-🛑🛑🛑🛑🛑 START OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
-
-Use this space to provide attribution links to any images, videos, or audio files borrowed from online.
-A few examples have been provided below to give you some ideas.
-
-If you're the owner (or a close acquaintance) of all media files, then make sure to specify this.
-Let the assessors know that you have explicit rights to use the media files within your project.
-
-Ideally, you should provide an actual link to every media file used, not just a generic link to the main site!
-The list below is by no means exhaustive. Within the Code Institute Slack community, you can find more "free media" links
-by sending yourself the following command: `!freemedia`.
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
 
 | Source | Location | Type | Notes |
 | --- | --- | --- | --- |
