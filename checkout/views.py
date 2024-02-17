@@ -1,4 +1,4 @@
-from django.shortcuts import render, redirect, reverse,
+from django.shortcuts import render, redirect, reverse
 from django.shortcuts import get_object_or_404, HttpResponse
 from django.views.decorators.http import require_POST
 from django.contrib import messages
@@ -70,12 +70,11 @@ def checkout(request):
                         )
                         order_line_item.save()
                     else:
-                        for size, quantity in item_data['items_by_size']
-                        .items():
+                        for size, qty in tem_data['items_by_size'].items():
                             order_line_item = OrderLineItem(
                                 order=order,
                                 product=product,
-                                quantity=quantity,
+                                quantity=qty,
                                 product_size=size,
                             )
                             order_line_item.save()
