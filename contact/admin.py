@@ -9,4 +9,3 @@ class ContactAdmin(admin.ModelAdmin):
     list_display = ('email', 'subject', 'message', 'reason')
     search_fields = ('email', 'reason')
     list_filter = ('email', 'reason')
-    
