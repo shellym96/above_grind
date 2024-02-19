@@ -182,14 +182,14 @@ a.category-badge > span.badge.hover {
 }
 /* Footer */
 
-.footer-container{
+/* .footer-container{
     margin-top: 50px;
     background-color:white;
     color: black;
     text-align: center;
     width: 100%;
     height: 33%;
-}
+} */
 
 .btn-footer {
     border-color: rgb(137, 64, 28);
@@ -197,13 +197,9 @@ a.category-badge > span.badge.hover {
     margin-top: 3%;
 }
 
-.footer-headers {
+/* .footer-headers {
     padding-top: 1%;
-}
-
-.sub-header {
-    margin-bottom: 10%;
-}
+} */
 
 #newsletter-btn {
     color: white;
@@ -220,6 +216,7 @@ a.category-badge > span.badge.hover {
 .sign-me-up {
     margin-bottom: 10%;
 }
+
 /* Allauth form formatting */
 
 .allauth-form-inner-content p {

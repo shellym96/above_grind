@@ -3,7 +3,7 @@
         "pk": 1,
         "model": "products.category",
         "fields": {
-            "name": "Coffee Machines",
+            "name": "coffee_machines",
             "friendly_name": "Coffee Machines"
         }
     },
@@ -11,7 +11,7 @@
         "pk": 2,
         "model": "products.category",
         "fields": {
-            "name": "Coffee Beans",
+            "name": "coffee_beans",
             "friendly_name": "Coffee Beans"
         }
     },
@@ -19,7 +19,7 @@
         "pk": 3,
         "model": "products.category",
         "fields": {
-            "name": "Decaf Coffee",
+            "name": "decaf_coffee",
             "friendly_name": "Decaf Coffee"
         }
     },
@@ -27,7 +27,7 @@
         "pk": 4,
         "model": "products.category",
         "fields": {
-            "name": "Bundles",
+            "name": "bundles",
             "friendly_name": "Bundles"
         }
     },
@@ -35,7 +35,7 @@
         "pk": 5,
         "model": "products.category",
         "fields": {
-            "name": "Accessories",
+            "name": "accessories",
             "friendly_name": "Accessories"
         }
     }
