@@ -106,7 +106,9 @@
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-nav" aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                {% include 'includes/mobile-header-top.html' %}
+                <ul>
+                    {% include 'includes/mobile-header-top.html' %}
+                </ul>
                 {% include 'includes/main-navbar.html' %}
             </nav>
         </div>
@@ -143,41 +145,31 @@
 
 {% block postloadjs %}
 <!-- Footer -->
-<footer class="footer-container sticky-bottom">
-       <div class="row footer-headers">
-         <div class="col-xs-12 col-md-4">
-           <h5><strong>Socials</strong></h5>
-           <p>Keep up to date with all our latest offers</p>
-           <a href="https://www.facebook.com/profile.php?id=61555909383556&is_tour_dismissed=true"
-           target="_blank" class="btn btn-footer"><i class="fab fa-facebook-square"></i> Follow us on Facebook!</a>
-         </div>
-         <div class="col-xs-12 col-md-4">
-            <h5 class="footer-heading sub-header"><strong>Subscribe to our newsletter</strong></h5>
-            <ul class="subscribe-list">
-                <li>
-                    <a href="{% url 'newsletter' %}" class="btn btn-footer">SIGN ME UP</a>
-                </li>
-            </ul>
+<footer class="container-fluid mt-5 border-top">
+    <div class="row text-center">
+        <div class="col-12 col-md-4 my-3">
+            <h5><strong>Socials</strong></h5>
+            <p>Keep up to date with all our latest offers</p>
+            <a href="https://www.facebook.com/profile.php?id=61555909383556&is_tour_dismissed=true" target="_blank"
+                class="btn btn-footer"><i class="fab fa-facebook-square"></i> Follow us on Facebook!</a>
         </div>
-         <div class="col-xs-12 col-md-4">
+        <div class="col-12 col-md-4 my-3">
+            <h5 class="footer-heading sub-header"><strong>Newsletter</strong></h5>
+            <p>Subscribe to get regular updates</p>
+            <a href="{% url 'newsletter' %}" class="btn btn-footer">SIGN ME UP</a>
+        </div>
+        <div class="col-12 col-md-4 my-3">
             <h5 class="footer-heading"><strong>Contact</strong></h5>
-            <ul class="contact-list">
-                <li>Phone: 089123456</li>
-                <li>E-mail: help@abovegrind.com </li>
-                <li>
-                    <a href="{% url 'contact' %}" class="btn btn-footer">Contact Us Form</a>
-                </li>
-            </ul>
+            <p>E-mail: help@abovegrind.com</p>
+            <a href="{% url 'contact' %}" class="btn btn-footer">Contact Us Form</a>
         </div>
-       </div>
-     </section>
-     <div class="row">
-        <div class="col-sm-12 align-self-center">
+    </div>
+    <div class="row">
+        <div class="col-12 text-center">
             <small>Site created by Shelly Maughan.<br>for learning purposes {% now "Y" %}&#128075;</small>
         </div>
     </div>
-   </div>
- </footer>
+</footer>
 <!-- /.footer -->
 <script>
     $('.toast').toast('show');
