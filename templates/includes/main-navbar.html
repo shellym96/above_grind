@@ -1,43 +1,42 @@
-<div class="collapse navbar-collapse" id="main-nav">
-    <li class="nav-item d-block d-md-none">
-        <a class="logo-font font-weight-bold nav-link text-black mr-5" href="{% url 'home'%}" id="home-link">
-            Home
-        </a>
-    </li>
-    <li class="nav-item">
-        <a class="logo-font font-weight-bold nav-link text-black mr-5" href="{% url 'products'%}" id="all-products-link">
-            All Products
-        </a>
-    </li>
-    <li class="nav-item">
-        <a class="logo-font font-weight-bold nav-link text-black mr-5" href="{% url 'products' %}?category=Coffee Machines" id="clothing-link">
-            Coffee Machines
-        </a>
-    </li>
-    <li class="nav-item dropdown">
-        <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Coffee Beans
-        </a>
-        <div class="dropdown-menu border-0" aria-labelledby="homeware-link">
-            <a href="{% url 'products' %}?category=Coffee Beans" class="dropdown-item">Caffeinated Beans</a>
-            <a href="{% url 'products' %}?category=Decaf Coffee" class="dropdown-item">Decaffinated Beans</a>
-            <a href="{% url 'products' %}?category=Bundles" class="dropdown-item">Bundles</a>
-        </div>
-    </li>
-    <li class="nav-item">
-        <a class="logo-font font-weight-bold nav-link text-black" href="{% url 'products' %}?category=Accessories" id="specials-link">
-            Accessories
-        </a>
-    </li>
-    <li class="nav-item">
-        <a class="logo-font font-weight-bold nav-link text-black" href="{% url 'newsletter' %}">
-            Newsletter
-        </a>
-    </li>
-    <li class="nav-item dropdown">
-        <a class="logo-font font-weight-bold nav-link text-black mr-5" href="{% url 'faqs' %}"  aria-haspopup="true" aria-expanded="false">
-            FAQs
-        </a>
-    </li>
-</ul>
-</div>
+<ul class="collapse navbar-collapse justify-content-between" id="main-nav">
+        <li class="nav-item d-block d-md-none">
+            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="{% url 'home'%}" id="home-link">
+                Home
+            </a>
+        </li>
+        <li class="nav-item">
+            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="{% url 'products'%}">
+                All Products
+            </a>
+        </li>
+        <li class="nav-item">
+            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="{% url 'products' %}?category=coffee_machines">
+                Coffee Machines
+            </a>
+        </li>
+        <li class="nav-item dropdown">
+            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Coffee Beans
+            </a>
+            <div class="dropdown-menu border-0">
+                <a href="{% url 'products' %}?category=coffee_beans" class="dropdown-item">Caffeinated Beans</a>
+                <a href="{% url 'products' %}?category=decaf_coffee" class="dropdown-item">Decaffinated Beans</a>
+                <a href="{% url 'products' %}?category=bundles" class="dropdown-item">Bundles</a>
+            </div>
+        </li>
+        <li class="nav-item">
+            <a class="logo-font font-weight-bold nav-link text-black" href="{% url 'products' %}?category=accessories">
+                Accessories
+            </a>
+        </li>
+        <li class="nav-item">
+            <a class="logo-font font-weight-bold nav-link text-black" href="{% url 'newsletter' %}">
+                Newsletter
+            </a>
+        </li>
+        <li class="nav-item dropdown">
+            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="{% url 'faqs' %}"  aria-haspopup="true" aria-expanded="false">
+                FAQs
+            </a>
+        </li>
+    </ul>
