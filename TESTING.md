@@ -224,7 +224,7 @@ Defensive programming was manually tested with the below user acceptance testing
 
 - A bug I have is with the footer, while making the footer a size to fit all information needed inside, it has popped up slightly when you access the site on a tablet. This was effecting the view of the homepage image, pushing it up slightly.
 
-    - I will fix this in the future dates as it does not effect the working side of the site.
+    - I have fixed this by adding margin-top: 4em , so the image fits without distorting text or view.
 
 
 ### GitHub **Issues**
