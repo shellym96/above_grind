@@ -240,6 +240,12 @@ Checkout
 Entity Relationship Diagrams (ERD) help to visualize database architecture before creating models.
 Understanding the relationships between different tables can save time later in the project.
 
+![screenshot](documentation/erd.png)
+
+### Custom Django Models
+
+- `Contact`
+
 ```python
 class Contact(models.Model):
     """ Contact form model """
@@ -255,11 +261,15 @@ class Contact(models.Model):
     email = models.EmailField()
 ```
 
+- `Newsletter`
+
 ```python
 class Newsletter(models.Model):
     email = models.EmailField(max_length=256, null=True, blank=False)
     name = models.CharField(max_length=100, null=True, blank=False)
 ```
+
+- `FAQ`
 
 ```python
 class FAQ(models.Model):
@@ -270,7 +280,7 @@ class FAQ(models.Model):
     link_url = models.CharField(max_length=100, null=True, blank=True)
 ```
 
-![screenshot](documentation/erd.png)
+![screenshot](documentation/models.png)
 
 ## Agile Development Process
 
