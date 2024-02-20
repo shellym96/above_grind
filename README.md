@@ -710,6 +710,7 @@ You can fork this repository by using the following steps:
 
 #####  Chat GPT
 - For this project I used chat gpt to provide the FAQs section and our Returns Policy for professional content for users to read
+- Boutqiue Ado, for the visual idea behind the project, as well as helping to inspire the layout.
 
 | Source | Location | Notes |
 | --- | --- | --- |
