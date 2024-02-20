@@ -232,10 +232,12 @@ Defensive programming was manually tested with the below user acceptance testing
 **Fixed Bugs**
 
 All previously closed/fixed bugs can be tracked [here](https://github.com/shellym96/above_grind/issues?q=is%3Aissue+is%3Aclosed).
+![screenshot](documentation/closed-issues.png)
 
 **Open Issues**
 
 Any remaining open issues can be tracked [here](https://github.com/shellym96/above_grind/issues).
+![screenshot](documentation/open-issues.png)
 
 
 ## Unfixed Bugs
