@@ -10,4 +10,5 @@ class FAQAdmin(admin.ModelAdmin):
         'link_url',
     )
 
+
 admin.site.register(FAQ, FAQAdmin)
