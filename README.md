@@ -226,15 +226,12 @@ Checkout
 - [Python](https://www.python.org) used as the back-end programming language.
 - [Git](https://git-scm.com) used for version control. (`git add`, `git commit`, `git push`)
 - [GitHub](https://github.com) used for secure online code storage.
-- [GitHub Pages](https://pages.github.com) used for hosting the deployed front-end site.
 - [Gitpod](https://gitpod.io) used as a cloud-based IDE for development.
 - [Bootstrap](https://getbootstrap.com) used as the front-end CSS framework for modern responsiveness and pre-built components.
-- [Flask](https://flask.palletsprojects.com) used as the Python framework for the site.
 - [Django](https://www.djangoproject.com) used as the Python framework for the site.
 - [PostgreSQL](https://www.postgresql.org) used as the relational database management.
 - [ElephantSQL](https://www.elephantsql.com) used as the Postgres database.
 - [Heroku](https://www.heroku.com) used for hosting the deployed back-end site.
-- [Cloudinary](https://cloudinary.com) used for online static file storage.
 - [Stripe](https://stripe.com) used for online secure payments of ecommerce products/services.
 - [AWS S3](https://aws.amazon.com/s3) used for online static file storage.
 
@@ -243,9 +240,7 @@ Checkout
 Entity Relationship Diagrams (ERD) help to visualize database architecture before creating models.
 Understanding the relationships between different tables can save time later in the project.
 
-```
-from django.db import models
-
+```python
 class Contact(models.Model):
     """ Contact form model """
     CONTACT_CHOICES = [
@@ -258,38 +253,21 @@ class Contact(models.Model):
     reason = models.CharField(max_length=45, choices=CONTACT_CHOICES)
     message = models.TextField(max_length=800)
     email = models.EmailField()
-
-    def __str__(self):
-        return self.email
 ```
-```
-from django.db import models
 
-
+```python
 class Newsletter(models.Model):
     email = models.EmailField(max_length=256, null=True, blank=False)
     name = models.CharField(max_length=100, null=True, blank=False)
-    
-
-    def __str__(self):
-        return self.email
-
 ```
-```
-from django.db import models
 
-
+```python
 class FAQ(models.Model):
     """ FAQs model. """
     question = models.CharField(max_length=250, null=False, blank=False)
     answer = models.TextField(null=False, blank=False)
-
-    class Meta:
-        verbose_name_plural = "FAQs"
-        ordering = ["question", ]
-
-    def __str__(self):
-        return self.question
+    link_text = models.CharField(max_length=100, null=True, blank=True)
+    link_url = models.CharField(max_length=100, null=True, blank=True)
 ```
 
 ![screenshot](documentation/erd.png)
