@@ -111,10 +111,9 @@ I've tested my deployed project on multiple devices to check for responsiveness 
 
 | Device | Home | Products | Contact | etc | Notes |
 | --- | --- | --- | --- | --- | --- |
-| Mobile (DevTools) | ![screenshot](documentation/responsive-mobile-home.png) | ![screenshot](documentation/responsive-mobile-about.png) | ![screenshot](documentation/responsive-mobile-contact.png) | ![screenshot](documentation/responsive-mobile-etc.png) | Works as expected |
-| Tablet (DevTools) | ![screenshot](documentation/responsive-tablet-home.png) | ![screenshot](documentation/responsive-tablet-about.png) | ![screenshot](documentation/responsive-tablet-contact.png) | ![screenshot](documentation/responsive-tablet-etc.png) | Works as expected |
-| Desktop | ![screenshot](documentation/responsive-desktop-home.png) | ![screenshot](documentation/responsive-desktop-about.png) | ![screenshot](documentation/responsive-desktop-contact.png) | ![screenshot](documentation/responsive-desktop-etc.png) | Works as expected |
-
+| Mobile (DevTools) | ![screenshot](documentation/responsive-mobile-home.png) | ![screenshot](documentation/responsive-mobile-products.png) | ![screenshot](documentation/responsive-mobile-contact.png) | Works as expected |
+| Tablet (DevTools) | ![screenshot](documentation/responsive-tablet-home.png) | ![screenshot](documentation/responsive-tablet-products.png) | ![screenshot](documentation/responsive-tablet-contact.png) | Works as expected |
+| Desktop | ![screenshot](documentation/responsive-desktop-home.png) | ![screenshot](documentation/responsive-desktop-products.png) | ![screenshot](documentation/responsive-desktop-contact.png) |
 ## Lighthouse Audit
 
 I've tested my deployed project using the Lighthouse Audit tool to check for any major issues.
@@ -184,16 +183,6 @@ Defensive programming was manually tested with the below user acceptance testing
 
 ## User Story Testing
 
-🛑🛑🛑🛑🛑 START OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
-
-Testing user stories is actually quite simple, once you've already got the stories defined on your README.
-
-Most of your project's **features** should already align with the **user stories**,
-so this should as simple as creating a table with the user story, matching with the re-used screenshot
-from the respective feature.
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
-
 | User Story | Screenshot |
 | --- | --- |
 | As a new site user, I would like to see what the site sells, so that I can know I am in the right place to purchase what I'm looking for. | ![screenshot](documentation/feature01.png) |
@@ -216,6 +205,10 @@ from the respective feature.
 - A bug I had is with the webhook handlers. I have the code in the project although there is an issue on the webhook handler side.
 
     - I left the code in the project for now, and will fix this at a later stage as the emails are sending to your email for sign up and into the terminal.
+
+- A bug I have is with the footer, while making the footer a size to fit all information needed inside, it has popped up slightly when you access the site on a tablet. This was effecting the view of the homepage image, pushing it up slightly.
+
+    - I will fix this in the future dates as it does not effect the working side of the site.
 
 
 ### GitHub **Issues**
