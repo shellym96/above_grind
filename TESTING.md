@@ -98,22 +98,21 @@ I have used the recommended [PEP8 CI Python Linter](https://pep8ci.herokuapp.com
 ## Browser Compatibility
 I've tested my deployed project on multiple browsers to check for compatibility issues.
 
-| Browser | Home | Products | Newsletter/Returns | FAQ/Contact | Checkout | Notes 
-
-| --- | --- | --- | --- | --- | --- |
+| Browser | Home | Products | Newsletter/Returns | FAQ/Contact | Checkout | Notes | |
+| --- | --- | --- | --- | --- | --- | --- | --- |
 | Chrome | ![screenshot](documentation/browser-chrome-home.png) | ![screenshot](documentation/browser-chrome-products.png) | ![screenshot](documentation/browser-chrome-newsletter.png) | ![screenshot](documentation/browser-chrome-contact.png) |  ![screenshot](documentation/browser-chrome-checkout.png) | Works as expected |
 | Firefox | ![screenshot](documentation/browser-firefox-home.png) | ![screenshot](documentation/browser-firefox-products.png) | ![screenshot](documentation/browser-firefox-returns.png) |  ![screenshot](documentation/browser-firefox-contact.png) | ![screenshot](documentation/browser-firefox-checkout.png) | Works as expected |
-| Opera | ![screenshot](documentation/browser-opera-home.png) | ![screenshot](documentation/browser-opera-products.png) | ![screenshot](documentation/browser-opera-newsletter.png) | ![screenshot](documentation/browser-faqs.png) | ![screenshot](documentation/browser-checkout.png) |Works as expected |
+| Opera | ![screenshot](documentation/browser-opera-home.png) | ![screenshot](documentation/browser-opera-products.png) | ![screenshot](documentation/browser-opera-newsletter.png) | ![screenshot](documentation/browser-opera-contact.png) | ![screenshot](documentation/browser-opera-checkout.png) |Works as expected |
 | Safari | ![screenshot](documentation/browser-safari-home.png) | ![screenshot](documentation/browser-safari-products.png) | ![screenshot](documentation/browser-safari-returns.png) |![screenshot](documentation/browser-safari-faqs.png) | ![screenshot](documentation/browser-safari-checkout.png) | Works as expected |
 
 ## Responsiveness
 I've tested my deployed project on multiple devices to check for responsiveness issues.
 
-| Device | Home | Products | Contact | etc | Notes |
+| Device | Home | Products | Contact | Notes | |
 | --- | --- | --- | --- | --- | --- |
-| Mobile (DevTools) | ![screenshot](documentation/responsive-mobile-home.png) | ![screenshot](documentation/responsive-mobile-products.png) | ![screenshot](documentation/responsive-mobile-contact.png) | Works as expected |
-| Tablet (DevTools) | ![screenshot](documentation/responsive-tablet-home.png) | ![screenshot](documentation/responsive-tablet-products.png) | ![screenshot](documentation/responsive-tablet-contact.png) | Works as expected |
-| Desktop | ![screenshot](documentation/responsive-desktop-home.png) | ![screenshot](documentation/responsive-desktop-products.png) | ![screenshot](documentation/responsive-desktop-contact.png) |
+| Mobile (DevTools) | ![screenshot](documentation/responsive-mobile-home.png) | ![screenshot](documentation/responsive-mobile-products.png) | ![screenshot](documentation/responsive-mobile-contact.png) | Works as expected 
+| Tablet (DevTools) | ![screenshot](documentation/responsive-tablet-home.png) | ![screenshot](documentation/responsive-tablet-products.png) | ![screenshot](documentation/responsive-tablet-contact.png) | Works as expected 
+| Desktop | ![screenshot](documentation/responsive-desktop-home.png) | ![screenshot](documentation/responsive-desktop-products.png) | ![screenshot](documentation/responsive-desktop-contact.png)  |Works as expected
 ## Lighthouse Audit
 
 I've tested my deployed project using the Lighthouse Audit tool to check for any major issues.
@@ -141,7 +140,7 @@ Defensive programming was manually tested with the below user acceptance testing
 | Product Detail | | | | | |
 | | Bring the user to the description of the product | Tested by clicking the product image | The feature behaved as expected, and it showed the product details| Test concluded and passed | ![screenshot](documentation/feature03.png) |
 | Bag | | | | | |
-| | Bring the user to secure their shopping bag | The feature did exactly that. | Test concluded and passed | ![screenshot](documentation/feature04.png) |
+| | Bring the user to secure their shopping bag | When clicking into the bag it shows the products inside | The feature did exactly that. | Test concluded and passed | ![screenshot](documentation/feature04.png) |
 | Checkout | | | | | |
 | | The checkout is to show the user where to fill out their delivery information and accept payments | Tested the feature by making a payment | The feature behaved as expected | Test concluded and passed | ![screenshot](documentation/feature05.png) |
 | Faqs | | | | | |
@@ -157,13 +156,30 @@ Defensive programming was manually tested with the below user acceptance testing
 | | Click on black button on image | Redirection to products page | Pass | |
 | Products | | | | |
 | | Click on product image | Redirection to product description  page | Pass | |
+| | Can click add product to bag | User gets a pop up message to say item has been added to bag successfully | Pass | |
+| Product Detail | | | | |
+| | Description of product | Reabable description of the product to see if you'd like to buy it | Pass | |
+| | Adding item to bag | Can click +/- to add more than one item to your bag | Pass | |
+| Bag | | | | |
+| | Update or edit | You can update the items via the edit/update/delete buttons | Pass | |
+| Checkout | | | | |
+| | Checkout page | You can enter your details for delivery and payments | Pass | |
+| | Save information | You can click the save information button, to save re-entering details later | Pass | |
 | Contact | | | | |
 | | Click on Contact link in footer | Redirection to Contact page | Must be logged in | |
 | | Fill out the form | Each subject field | Pass | |
 | | Enter valid email address | Field will only accept email address format | Pass | |
 | | Enter message in textarea | Field will accept freeform text | Pass | |
-| | Click the Submit button | Redirects user to form-dump | Pass | User must click 'Back' button to return |
-| Sign Up | | | | |
+| | Click the Submit button | Gives user a success messages | Pass | User must click 'Back' button to return |
+| Newsletter | | | | |
+| | Sign up to newsletter | Enter your name and email address | Pass | |
+| | Sign up button | Click the button and you will receive a success message to say Thank you for signing up! | Pass | |
+| Faqs | | | | |
+| | Faqs | Dropdown with the delivery information | Pass | |
+| | Faqs | Dropdown with the returns information | Pass | |
+| | Faqs | Dropdown with information on how to get in touch | Pass | |
+| | Faqs | Dropdowns with how to create a profile | Pass | |
+| Sign Up To | | | | |
 | | Click on Sign Up button | Redirection to Sign Up page | Pass | |
 | | Enter valid email address | Field will only accept email address format | Pass | |
 | | Enter valid password (twice) | Field will only accept password format | Pass | |
