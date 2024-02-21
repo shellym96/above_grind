@@ -222,7 +222,7 @@ Defensive programming was manually tested with the below user acceptance testing
 
     - I left the code in the project for now, and will fix this at a later stage as the emails are sending to your email for sign up and into the terminal.
 
-- A bug I have is with the footer, while making the footer a size to fit all information needed inside, it has popped up slightly when you access the site on a tablet. This was effecting the view of the homepage image, pushing it up slightly.
+- A bug I had is with the footer, while making the footer a size to fit all information needed inside, it has popped up slightly when you access the site on a tablet. This was effecting the view of the homepage image, pushing it up slightly.
 
     - I have fixed this by adding margin-top: 4em , so the image fits without distorting text or view.
 
@@ -245,5 +245,9 @@ Any remaining open issues can be tracked [here](https://github.com/shellym96/abo
 - A bug I had is with the webhook handlers. I have the code in the project although there is an issue on the webhook handler side.
 
     - I left the code in the project for now, and will fix this at a later stage as the emails are sending to your email for sign up and into the terminal.
+
+- A bug I have last minute before submission was my footer popping up slightly when you bring it to tablet mode.
+
+    - This happened by fixing a previous issue I had with the footer hiding some of the main text on the front image of the site. 
 
 There are no remaining bugs that I am aware of.
